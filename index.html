@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Homework 4</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <nav>
+        <a href="#" id="home">Home</a>
+        <a href="#" id="about">About</a>
+        <button id="loginBtn">Login</button>
+        <div id="loginStatus" style="display: none; margin-left: 20px; color: green; font-weight: bold;">
+            You are now logged in! 🎉
+        </div>
+    </nav>
+
+    <div id="app"></div>
+
+    <div class="modal" id="feedbackModal">
+        <div class="modal-background close-modal"></div>
+        <div class="alert-panel">
+            <div class="close-btn close-modal">X</div>
+            <div class="feedback">
+                Do you want to be<span>&nbsp; SUPER COOL </span>and log in? 😎
+            </div>
+            <div class="buttons">
+                <div class="login">YES</div>
+                <div class="close close-modal">CLOSE</div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" id="thankYouModal">
+        <div class="modal-background close-modal"></div>
+        <div class="alert-panel">
+            <div class="close-btn close-modal">X</div>
+            <div class="feedback">
+                Thank you for logging in! 🎉
+            </div>
+            <div class="buttons">
+                <div class="close close-modal">CLOSE</div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div>
+            <h3>Fake Company💤</h3>
+            <p>&copy; 2024 Fake Community. All rights reserved.</p>
+            <p>Follow us on:</p>
+            <a href="https://twitter.com/FNAF">Twitter</a> |
+            <a href="https://www.instagram.com/FNAF">Instagram</a> |
+            <a href="https://www.youtube.com/FNAF">YouTube</a>
+        </div>
+    </footer>
+
+    <script src="lib/jquery-3.7.1.min.js"></script>
+    <script src="app/app.js"></script>
+</body>
+</html>

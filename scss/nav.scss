@@ -1,0 +1,25 @@
+nav {
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+button{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    background-color: #316AD5;
+    border: none;
+    border-radius: 15px;
+    &:hover {
+        background-color: #29555A;
+    }
+}
